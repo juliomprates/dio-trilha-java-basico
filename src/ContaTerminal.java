@@ -28,7 +28,7 @@ public class ContaTerminal {
         saldo = Double.parseDouble(sc.nextLine());
 
         //Imprimir uma mensagem de sucesso
-        DecimalFormat dc = new DecimalFormat(".00");
+        DecimalFormat dc = new DecimalFormat("0.00");
         System.out.println("\nOlá " + nomeCliente + ", obrigado por criar uma conta em nosso banco.\n" +
                 "Sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo de R$"+ dc.format(saldo) +
                 " já está disponível para saque!");
